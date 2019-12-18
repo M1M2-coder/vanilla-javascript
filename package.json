@@ -1,0 +1,27 @@
+{
+  "name": "js-project",
+  "version": "1.0.0",
+  "description": "Building a project with vanilla javascript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M1M2-coder/vanilla-javascript.git"
+  },
+  "author": "Mahmoud Ahmadieh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M1M2-coder/vanilla-javascript/issues"
+  },
+  "homepage": "https://github.com/M1M2-coder/vanilla-javascript#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
